@@ -159,7 +159,7 @@ const App = () => {
 								письмо в будущее - покажите, как сильно Вы его любите)
 							</div>
 						</div>
-						<img src='/src/assets/PD_main.png' alt='asd' />
+						<img src='./assets/PD_main.png' alt='asd' />
 					</div>
 					<a href='#'>
 						<div>Отправить</div>
