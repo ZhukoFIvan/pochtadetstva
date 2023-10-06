@@ -1,7 +1,7 @@
 import './App.scss'
 // Import Swiper React components
+import { AiOutlineClose } from 'react-icons/ai'
 import { RxHamburgerMenu } from 'react-icons/rx'
-import {AiOutlineClose} from 'react-icons/ai'
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 // Import Swiper styles
@@ -117,9 +117,15 @@ const App = () => {
 						<li>примеры</li>
 						<li>отправить</li>
 					</ul>
-					<div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'active_btn' : 'mobile_btn'}>
-						{isOpen ? <AiOutlineClose size={30}/> : <RxHamburgerMenu size={30} />}
-
+					<div
+						onClick={() => setIsOpen(!isOpen)}
+						className={isOpen ? 'active_btn' : 'mobile_btn'}
+					>
+						{isOpen ? (
+							<AiOutlineClose size={30} />
+						) : (
+							<RxHamburgerMenu size={30} />
+						)}
 					</div>
 				</div>
 			</header>
@@ -182,7 +188,7 @@ const App = () => {
 						<div className='text'>
 							<div className='title_block'>
 								<img src='/src/assets/icon_3.svg' alt='' />
-								<h2>Соберем все за это время</h2>
+								<h2>Соберем все за это время.</h2>
 							</div>
 							<div>
 								Путешествуйте по воспоминаниям всего лишь переворачивая
