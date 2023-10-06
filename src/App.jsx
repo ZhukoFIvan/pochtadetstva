@@ -139,7 +139,7 @@ const App = () => {
 						<div className='text'>
 							<div className='title_block'>
 								<h1>Сохраните ваши воспоминания</h1>
-								<img src='/IMG_5005 1.png' alt='main' />
+								<img src='/public/IMG_5005 1.png' alt='main' />
 							</div>
 							<div className='desc'>
 								Помните, как Ваш ребенок сделал первый шаг? А как нарисовал
@@ -159,11 +159,11 @@ const App = () => {
 								письмо в будущее - покажите, как сильно Вы его любите)
 							</div>
 						</div>
-						<img src='./assets/PD_main.png' alt='asd' />
+						<img src='/PD_main.png' alt='asd' />
 					</div>
 					<a href='#'>
 						<div>Отправить</div>
-						<img src='/src/assets/mail.svg' alt='gdf' />
+						<img src='../public/mail.svg' alt='gdf' />
 					</a>
 				</div>
 
