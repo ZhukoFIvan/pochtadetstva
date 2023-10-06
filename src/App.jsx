@@ -139,7 +139,7 @@ const App = () => {
 						<div className='text'>
 							<div className='title_block'>
 								<h1>Сохраните ваши воспоминания</h1>
-								<img src='/public/IMG_5005 1.png' alt='main' />
+								<img src='/IMG_5005 1.png' alt='main' />
 							</div>
 							<div className='desc'>
 								Помните, как Ваш ребенок сделал первый шаг? А как нарисовал
