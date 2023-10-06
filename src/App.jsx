@@ -139,7 +139,7 @@ const App = () => {
 						<div className='text'>
 							<div className='title_block'>
 								<h1>Сохраните ваши воспоминания</h1>
-								<img src='/src/assets/IMG_5005 1.png' alt='' />
+								<img src='/src/assets/IMG_5005 1.png' alt='main' />
 							</div>
 							<div className='desc'>
 								Помните, как Ваш ребенок сделал первый шаг? А как нарисовал
@@ -159,11 +159,11 @@ const App = () => {
 								письмо в будущее - покажите, как сильно Вы его любите)
 							</div>
 						</div>
-						<img src='/src/assets/PD_main.png' alt='' />
+						<img src='/src/assets/PD_main.png' alt='asd' />
 					</div>
 					<a href='#'>
 						<div>Отправить</div>
-						<img src='/src/assets/mail.svg' alt='' />
+						<img src='/src/assets/mail.svg' alt='gdf' />
 					</a>
 				</div>
 
@@ -171,11 +171,11 @@ const App = () => {
 					<h1>О нас</h1>
 
 					<div className='about_block'>
-						<img className='about_img' src='/src/assets/about_us1.png' alt='' />
+						<img className='about_img' src='/src/assets/about_us1.png' alt='dfg' />
 						<div className='text'>
 							<div className='title_block'>
 								<h2>Аккуратно и с любовью</h2>
-								<img src='/src/assets/icon_2.svg' alt='' />
+								<img src='/src/assets/icon_2.svg' alt='jgjh' />
 							</div>
 							<div>
 								Каждое воспоминание – это кусочек Вашей жизни, который Вы
@@ -187,7 +187,7 @@ const App = () => {
 					<div className='about_block'>
 						<div className='text'>
 							<div className='title_block'>
-								<img src='/src/assets/icon_3.svg' alt='' />
+								<img src='/src/assets/icon_3.svg' alt='fdfh' />
 								<h2>Соберем все за это время.</h2>
 							</div>
 							<div>
@@ -199,19 +199,19 @@ const App = () => {
 						<img
 							className='about_img2'
 							src='/src/assets/about_us2.png'
-							alt=''
+							alt='gkjdnfg'
 						/>
 					</div>
 					<div className='about_block'>
 						<img
 							className='about_img3'
 							src='/src/assets/about_us3.png'
-							alt=''
+							alt='kdfngd'
 						/>
 						<div className='text'>
 							<div className='title_block'>
 								<h2>Красота в деталях</h2>
-								<img src='/src/assets/icon_4.svg' alt='' />
+								<img src='/src/assets/icon_4.svg' alt='dkfg' />
 							</div>
 							<div>
 								Даже самые забавные мелочи приносят красочные эмоции. Не
@@ -240,16 +240,16 @@ const App = () => {
 							onSwiper={(swiper) => console.log(swiper)}
 						>
 							<SwiperSlide>
-								<img src='/src/assets/mclaren.jpeg' alt='' />
+								<img src='/src/assets/mclaren.jpeg' alt='dfg' />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img src='/src/assets/mclaren.jpeg' alt='' />
+								<img src='/src/assets/mclaren.jpeg' alt='dfg' />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img src='/src/assets/mclaren.jpeg' alt='' />
+								<img src='/src/assets/mclaren.jpeg' alt='jjh' />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img src='/src/assets/mclaren.jpeg' alt='' />
+								<img src='/src/assets/mclaren.jpeg' alt='ret' />
 							</SwiperSlide>
 						</Swiper>
 					</div>
@@ -394,11 +394,11 @@ const App = () => {
 				<div className='send_letter'>
 					<div className='title_block'>
 						<h1>Отправьте письмо прямо сейчас </h1>
-						<img className='icon_5' src='/src/assets/icon5.svg' alt='' />
+						<img className='icon_5' src='/src/assets/icon5.svg' alt='mhj' />
 					</div>
 
 					<div className='info_block'>
-						<img src='/src/assets/down_letter.PNG' alt='' />
+						<img src='/src/assets/down_letter.PNG' alt='iofh' />
 
 						<div className='text_block'>
 							<div>
@@ -408,7 +408,7 @@ const App = () => {
 							</div>
 							<a href='#'>
 								<div>отправить</div>
-								<img src='/src/assets/letter.svg' alt='' />
+								<img src='/src/assets/letter.svg' alt='v' />
 							</a>
 						</div>
 					</div>
